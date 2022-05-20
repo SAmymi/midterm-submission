@@ -8,8 +8,25 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
+		// n-1 for first 10 (100 to 90)
+		// n-2  for next 20 (90 to 70)
+		// n-3 for next 30 (70 to 40)
+		// n-4 for next 40 (48 to 0)
 
-
+		for (int x = 100; x >= 1; x--) {
+			if (x < 90) {
+				x--;
+			}
+			if (x < 70) {
+				x--;
+			}
+			if (x < 40) {
+				x--;
+			}
+			System.out.print(x + ", ");
+		}
 	}
 }
+
+
+
