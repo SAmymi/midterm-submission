@@ -18,8 +18,20 @@ public static void main(String[] args) {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
+//Getting all keys of map using KeySet() method
 
 
-    }
+//Fetching value using Key of the map
+
+
+
+                System.out.println("Values: ");
+
+                for(String value : map.values()){
+
+                        System.out.print(value + ", ");
+                }
+        }
 
 }
+

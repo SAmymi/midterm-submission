@@ -14,9 +14,22 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+
+			EmployeeInfo employee1 = new EmployeeInfo(101);
+			EmployeeInfo employee2 = new EmployeeInfo("John",102);
+			EmployeeInfo employee3 = new EmployeeInfo("Jason",30,103);
+
+			EmployeeInfo.nestedclass nestedrefff = employee3.new nestedclass();
+			nestedrefff.nestedMethod();
+
+			employee2.setName("People And Tech");
+			System.out.println(employee2.getName());
+
+			EmployeeInfo.calculateEmployeeBonus(10000,7);
+			EmployeeInfo.calculateEmployeePension(10000);
 
 
-	}
+
+		}
 
 }

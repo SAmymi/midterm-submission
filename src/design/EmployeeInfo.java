@@ -134,4 +134,20 @@ public class EmployeeInfo {
 
 		}
 	}
+	public class nestedclass {
+
+		public void nestedMethod() {
+			System.out.println("Name");
+		}
+	}
+
+
 }
+
+
+
+	/**
+	 @@ -13,10 +17,23 @@ public class FortuneEmployee {
+	  * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
+	 *
+	 **/
